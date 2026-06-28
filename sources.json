@@ -1,0 +1,19 @@
+{
+  "version": "agid-americas-sources-v1",
+  "policy": "Metadata and repository plans only. Do not store personal addresses, private coordinates, raw third-party extracts, witnesses, private keys, or connector secrets.",
+  "allowedSourceTypes": [
+    "AGID repository placement plan",
+    "official-open-data metadata",
+    "openstreetmap-derived metadata",
+    "overture-derived metadata",
+    "manual review notes"
+  ],
+  "heavyDataExternal": true,
+  "sources": [
+    {
+      "id": "agid-americas-repository-creation-plan",
+      "file": "registry/agid-americas-repository-creation-plan.json",
+      "license": "AGID-generated metadata"
+    }
+  ]
+}

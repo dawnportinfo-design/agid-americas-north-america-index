@@ -1,0 +1,19 @@
+{
+  "version": "agid-americas-region-tests-v1",
+  "fixturesUseSyntheticDataOnly": true,
+  "region": "north_america",
+  "conformance": [
+    {
+      "id": "manifest-loads",
+      "expected": "pass"
+    },
+    {
+      "id": "region-plan-loads",
+      "expected": "pass"
+    },
+    {
+      "id": "no-private-material",
+      "expected": "pass"
+    }
+  ]
+}

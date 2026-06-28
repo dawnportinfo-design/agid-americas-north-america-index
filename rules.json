@@ -1,0 +1,22 @@
+{
+  "version": "agid-americas-index-rules-v1",
+  "creationPolicy": "Create continent and region indexes first. Country parents and children remain planned until safe seed content, maintainer ownership, and source policy are ready.",
+  "noEmptyRepoPolicy": true,
+  "physicalCreationStages": [
+    "wave-0-index",
+    "wave-1-country-parent",
+    "wave-2-child-logical-plan"
+  ],
+  "privacy": {
+    "storePersonalAddresses": false,
+    "shareByDefault": [
+      "repository",
+      "kind",
+      "region",
+      "countryCode",
+      "stage",
+      "githubCreateNow"
+    ]
+  },
+  "heavyDataPolicy": "external-content-addressed-packs"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "agid-americas-north-america-index",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AGID North America index for Americas country and territory repository coordination.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/validate.js"
+  }
+}

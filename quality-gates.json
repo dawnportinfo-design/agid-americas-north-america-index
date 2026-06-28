@@ -1,0 +1,30 @@
+{
+  "version": "agid-americas-quality-gates-v1",
+  "gates": [
+    {
+      "id": "no-private-material",
+      "status": "required",
+      "severity": "blocker"
+    },
+    {
+      "id": "manifest-valid",
+      "status": "required",
+      "severity": "blocker"
+    },
+    {
+      "id": "registry-plan-present",
+      "status": "required",
+      "severity": "blocker"
+    },
+    {
+      "id": "country-child-repos-not-created-empty",
+      "status": "required",
+      "severity": "major"
+    },
+    {
+      "id": "heavy-data-externalized",
+      "status": "required",
+      "severity": "major"
+    }
+  ]
+}

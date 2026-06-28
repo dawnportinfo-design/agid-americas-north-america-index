@@ -1,0 +1,46 @@
+[
+  {
+    "repository": "agid-country-us",
+    "kind": "country-parent",
+    "region": "north_america",
+    "countryCode": "US",
+    "countryName": "USA",
+    "parentRepository": "agid-americas-north-america-index",
+    "stage": "wave-1-country-parent",
+    "githubCreateNow": false,
+    "description": "AGID country or territory pack for USA; stores safe rules, sources, quality gates, and synthetic fixtures only."
+  },
+  {
+    "repository": "agid-country-ca",
+    "kind": "country-parent",
+    "region": "north_america",
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "parentRepository": "agid-americas-north-america-index",
+    "stage": "wave-1-country-parent",
+    "githubCreateNow": false,
+    "description": "AGID country or territory pack for Canada; stores safe rules, sources, quality gates, and synthetic fixtures only."
+  },
+  {
+    "repository": "agid-country-mx",
+    "kind": "country-parent",
+    "region": "north_america",
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "parentRepository": "agid-americas-north-america-index",
+    "stage": "wave-1-country-parent",
+    "githubCreateNow": false,
+    "description": "AGID country or territory pack for Mexico; stores safe rules, sources, quality gates, and synthetic fixtures only."
+  },
+  {
+    "repository": "agid-country-pm",
+    "kind": "country-parent",
+    "region": "north_america",
+    "countryCode": "PM",
+    "countryName": "Saint Pierre and Miquelon",
+    "parentRepository": "agid-americas-north-america-index",
+    "stage": "wave-1-country-parent",
+    "githubCreateNow": false,
+    "description": "AGID country or territory pack for Saint Pierre and Miquelon; stores safe rules, sources, quality gates, and synthetic fixtures only."
+  }
+]
