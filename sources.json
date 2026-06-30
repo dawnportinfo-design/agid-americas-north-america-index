@@ -1,19 +1,18 @@
 {
-  "version": "agid-americas-sources-v1",
-  "policy": "Metadata and repository plans only. Do not store personal addresses, private coordinates, raw third-party extracts, witnesses, private keys, or connector secrets.",
-  "allowedSourceTypes": [
-    "AGID repository placement plan",
-    "official-open-data metadata",
-    "openstreetmap-derived metadata",
-    "overture-derived metadata",
-    "manual review notes"
+  "schemaVersion": "agid-source-policy-v0.1",
+  "repository": "agid-americas-north-america-index",
+  "sourcePolicy": [
+    "Prefer official government, postal, customs, port, open GIS, and openly licensed map sources.",
+    "Keep large GIS extracts, tiles, building polygons, search indexes, routing networks, and generated caches outside GitHub.",
+    "Track upstream licenses before publishing any country, territory, island, or maritime-adjacent data pack.",
+    "Postal-weak, no-postal-code, island, border, disputed, overseas, or special regions require explicit display and source policy before data publication."
   ],
-  "heavyDataExternal": true,
-  "sources": [
-    {
-      "id": "agid-americas-repository-creation-plan",
-      "file": "registry/agid-americas-repository-creation-plan.json",
-      "license": "AGID-generated metadata"
-    }
+  "noRawMaterial": [
+    "raw personal address",
+    "recipient record",
+    "precise private coordinate",
+    "witness material",
+    "private key",
+    "carrier operational record"
   ]
 }

@@ -1,30 +1,38 @@
 {
-  "version": "agid-americas-quality-gates-v1",
+  "schemaVersion": "agid-quality-gates-v0.1",
+  "repository": "agid-americas-north-america-index",
   "gates": [
     {
-      "id": "no-private-material",
-      "status": "required",
-      "severity": "blocker"
+      "id": "json-valid",
+      "required": true
     },
     {
-      "id": "manifest-valid",
-      "status": "required",
-      "severity": "blocker"
+      "id": "no-raw-address",
+      "required": true
     },
     {
-      "id": "registry-plan-present",
-      "status": "required",
-      "severity": "blocker"
+      "id": "source-license-declared",
+      "required": true
     },
     {
-      "id": "country-child-repos-not-created-empty",
-      "status": "required",
-      "severity": "major"
+      "id": "breadcrumb-reconstruction-defined",
+      "required": true
     },
     {
-      "id": "heavy-data-externalized",
-      "status": "required",
-      "severity": "major"
+      "id": "postal-status-declared",
+      "required": true
+    },
+    {
+      "id": "special-region-display-policy",
+      "required": true
+    },
+    {
+      "id": "large-gis-externalized",
+      "required": true
+    },
+    {
+      "id": "country-child-split-justified",
+      "required": true
     }
   ]
 }

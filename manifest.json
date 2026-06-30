@@ -1,15 +1,50 @@
 {
-  "version": "agid-americas-region-index-manifest-v1",
+  "schemaVersion": "agid-index-repository-manifest-v0.1",
   "repository": "agid-americas-north-america-index",
-  "owner": "dawnportinfo-design",
   "kind": "region-index",
-  "status": "completed-region-index-seed",
-  "description": "AGID North America index for Americas country and territory repository coordination.",
-  "continent": "americas",
+  "owner": "dawnportinfo-design",
+  "canonicalContinent": "americas",
   "region": "north_america",
-  "parentRepository": "agid-americas-index",
-  "storesPersonalAddressMaterial": false,
-  "countryParentRepositoryCount": 4,
-  "childLogicalRepositoryCount": 136,
-  "defaultBranch": "main"
+  "stage": "wave-0-index",
+  "indexReady": true,
+  "sourcePlanVersion": "agid-americas-repository-creation-plan-v1",
+  "generatedAt": "2026-06-28T12:54:28.908Z",
+  "privacy": {
+    "rawAddressStorage": false,
+    "recipientStorage": false,
+    "precisePrivateCoordinates": false,
+    "witnessMaterial": false,
+    "privateKeys": false,
+    "carrierOperationalData": false
+  },
+  "relatedRepositories": [
+    {
+      "repository": "agid-country-us",
+      "kind": "country-parent",
+      "countryCode": "US",
+      "countryName": "USA",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-ca",
+      "kind": "country-parent",
+      "countryCode": "CA",
+      "countryName": "Canada",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-mx",
+      "kind": "country-parent",
+      "countryCode": "MX",
+      "countryName": "Mexico",
+      "stage": "wave-1-country-parent"
+    },
+    {
+      "repository": "agid-country-pm",
+      "kind": "country-parent",
+      "countryCode": "PM",
+      "countryName": "Saint Pierre and Miquelon",
+      "stage": "wave-1-country-parent"
+    }
+  ]
 }
